@@ -23,15 +23,46 @@ html{
     width:100px;
     height:60px;
     position: fixed;
-    top: 15px;
-    left:50%;
+    top: 10px;
+    left:150px;
 }
 .second-red-circle{
     background-color: red;
     width: 50px;
-    height: 30px;
+    height: 50px;
     border-radius: 100%;
     position:absolute;
-    top: 25%;
+    top: 5px;
     left:25%;
+}
+.green-box{
+    background-color: green;
+    width: 100px;
+    height: 60px;
+    position: fixed;
+    top: 10px;
+    margin: auto;
+}
+.yellow-los{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: yellow;
+    top: 10px;
+    left: 30%;
+}
+.blue-circle{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: auto;
+    position: relative;
+    top:5px;
 }
